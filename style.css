@@ -11,7 +11,7 @@ body, html {
     overflow: hidden;
 }
 
-.bg {
+#bg {
     background-image: url("http://www.gstatic.com/prettyearth/assets/full/1666.jpg");
 
     /*Position*/
