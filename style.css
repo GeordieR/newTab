@@ -1,21 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 body, html {
+    /*Set Fonts*/
     font-family: "Source Sans Pro", sans-serif;
+    color: white;
+
+    /*Disable Scrolling*/
     height: 100%;
     margin: 0;
     overflow: hidden;
 }
 
 .bg {
-    /* The image used */
     background-image: url("http://www.gstatic.com/prettyearth/assets/full/1666.jpg");
 
-    /* Full height */
+    /*Position*/
     height: 100%; 
+    width: 100%;
+    top: 0;
+    border: 0;
+    position: absolute;
 
-    /* Center and scale the image nicely */
+    /* Scale*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bottomLeft{
+    position: fixed;
+    bottom: 1%;
+    left: 2%;
+}
+
+.bottomCenter{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+}
+
+.link{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
 }
