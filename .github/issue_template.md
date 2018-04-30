@@ -1,20 +1,6 @@
-<!--- Provide a general summary of the issue in the Title above -->
+## Use one of the commands below to generate a template
 
-## Expected Behavior
-<!--- Tell us what should happen -->
-
-## Actual Behavior
-<!--- Tell us what happens instead of the expected behavior -->
-
-## Steps to Reproduce the Problem
-<!--- Provide a screenshot, or an unambiguous set of steps to -->
-<!--- reproduce this bug-->
-  1.
-  2.
-  3.
-
-## Specifications
-
-  - Version:
-  - Platform:
-  - Subsystem:
+- `/template issue` for general issues
+- `/template feature` to propose a feature
+- `/template pr` for all pull requests
+- or `/template` and the bot will help you
