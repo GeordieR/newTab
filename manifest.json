@@ -1,0 +1,12 @@
+{
+    
+    "manifest_version": 2,
+    "name": "Quick Earth",
+    "description": "Displays quick links in front of Google Pretty Earth Images",
+    "version": "0.0.0.1",
+    "author": "Geordie Rogers",
+    "permissions" : ["activeTab"],
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    }
+ }
