@@ -11,6 +11,7 @@ body, html {
     overflow: hidden;
 }
 
+/*Background Image*/
 #bg {
     background-image: url("http://www.gstatic.com/prettyearth/assets/full/1666.jpg");
 
@@ -27,12 +28,21 @@ body, html {
     background-size: cover;
 }
 
+/*Half way up the page*/
+.middle{
+  position: absolute;
+  top: 50%;
+  margin-top: -6.5%;
+}
+
+/*Bottom left corner element*/
 .bottomLeft{
     position: fixed;
     bottom: 1%;
     left: 2%;
 }
 
+/*Element in the center at the bottom of the screen*/
 .bottomCenter{
     position:absolute;
     width:100%;
@@ -40,8 +50,30 @@ body, html {
     text-align:center;
 }
 
+/*CSS for all text links*/
 .link{
     color:white;
     font-weight: bold;
     text-decoration: none;
+}
+
+/*CSS for quick links*/
+#links{
+    text-align: center;
+    display: table;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*CSS for quick links*/
+#links a{
+    display: table-cell;
+    text-align: center;
+    width: 10%;
+}
+
+/*CSS for quick links*/
+#links img{
+    width: 100%;
+    max-width: 150px;
 }

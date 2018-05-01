@@ -6,12 +6,24 @@
     <title>New Tab</title>
 </head>
 <body>
-
+    <!-- Background Image -->
     <div id="bg">
+        <!-- Quick Links -->
+        <div class="middle">
+            <p id="links">
+                <a href="https://youtube.com"><img src="img/yt.png" /></a>
+                <a href="https://fb.com"><img src="img/fb.png" /></a>
+                <a href="https://reddit.com"><img src="img/rd.png" /></a>
+                <a href="#"><img src="img/tw.png" /></a>
+                <a href="#"><img src="img/gm.png" /></a>
+            </p>
+        </div>
     	<div class="bottomLeft">
+            <!-- Photo Location and Copyright -->
 	    	<a id="location" style="text-decoration: none; color: white" href="https://www.google.com/maps/@-41.27929,174.784713,17z/data=!3m1!1e3"><p style="font-size: 16pt; margin-bottom: 0px;"><strong id="region">Wellington,</strong><span id="country">New Zealand</span></p></a>
 	    	<p id="copy" style="font-size: 13pt; margin-top: 0px;">&copy; 2014 CNES / Wellington City Council</p>
     	</div>
+        <!-- GitHub Issue Link -->
     	<div class="bottomCenter">
     		<p><a href="https://github.com/GeordieR/newTab/issues" class="link">Submit a bug report or feature request</a></p>
     	</div>
@@ -19,7 +31,9 @@
 
 </body>
 
+<!-- Location data from GStatic Pretty Images using earthview script-->
 <script type="text/javascript" src="./locations.json"></script>
+<!-- JavaScript for randomisation and DOM configuration -->
 <script type="text/javascript" src="./script.js"></script>
 
 </html>
