@@ -13,7 +13,7 @@ body, html {
 
 /*Background Image*/
 #bg {
-    background-image: url("http://www.gstatic.com/prettyearth/assets/full/1666.jpg");
+    background-image: url("img/1666.jpg");
 
     /*Position*/
     height: 100%; 
