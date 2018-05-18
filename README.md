@@ -6,10 +6,10 @@ This project was a way for me to learn more about HTML/CSS/JavaScript. I adapted
 
 ## Install
 1. Download or save the zip file and extract it
-![Click "Clone or Download", "Download ZIP" and then extract the downloaded zip.](https://host.grogers.xyz/quickEarth/01-Download3.gif)
+![Click "Clone or Download", "Download ZIP" and then extract the downloaded zip.](https://vault.grogers.xyz/quickEarth/01-Download3.gif)
 2. Navigate to `chrome://extensions`
-![Navigate to `chrome://extensions`](https://host.grogers.xyz/quickEarth/02-Extensions3.gif)
+![Navigate to `chrome://extensions`](https://vault.grogers.xyz/quickEarth/02-Extensions3.gif)
 3. Enable "Developer Mode" and click load unpacked. Then select the folder containing the extension
-![Enable "Developer Mode" and click load unpacked. Then select the folder containing the extension.](https://host.grogers.xyz/quickEarth/03-Unpack3.gif)
+![Enable "Developer Mode" and click load unpacked. Then select the folder containing the extension.](https://vault.grogers.xyz/quickEarth/03-Unpack3.gif)
 4. Done
-![You're Done!](https://host.grogers.xyz/quickEarth/04-Final3-1.png)
+![You're Done!](https://vault.grogers.xyz/quickEarth/04-Final3-1.png)
