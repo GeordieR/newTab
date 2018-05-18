@@ -61,6 +61,7 @@ body, html {
 #links{
     text-align: center;
     display: table;
+    table-layout: fixed;
     width: 100%;
     margin: 20px auto;
 }
